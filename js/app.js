@@ -38,7 +38,7 @@ const TRANSLATIONS = {
         different_account: "الدخول بحساب مختلف",
         no_account: "ليس لديك حساب استثماري؟",
         contact_us: "تواصل معنا لشراء حساب",
-        site_title: "شركة الوسيط",
+        site_title: "Tmf Group",
         site_slogan: "منصتك الموثوقة للاستثمار الاحترافي",
         login_id: "اسم الدخول",
         enter_username: "أدخل اسم الحساب...",
@@ -127,7 +127,7 @@ const TRANSLATIONS = {
         different_account: "Login with another account",
         no_account: "Don't have an investment account?",
         contact_us: "Contact us to buy an account",
-        site_title: "Al-Waseet Co.",
+        site_title: "Tmf Group",
         site_slogan: "Your Trusted Platform for Professional Investment",
         login_id: "Login ID",
         enter_username: "Enter username...",
@@ -239,7 +239,7 @@ function updateUILanguage() {
     document.getElementById('lang-text').innerText = isEn ? 'العربية' : 'English';
     
     // Update document title
-    document.title = isEn ? 'Al-Waseet Co. - FinTech Platform' : 'شركة الوسيط - FinTech Platform';
+    document.title = isEn ? 'Al-Waseet Co. - FinTech Platform' : 'Tmf Group - FinTech Platform';
 }
 
 document.getElementById('lang-toggle').addEventListener('click', () => {
